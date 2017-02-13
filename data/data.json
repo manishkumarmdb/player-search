@@ -1,0 +1,70 @@
+[
+      {
+        "name": "Pele",
+        "sports": "Football",
+        "country": "Brazil",
+        "imageURL":
+        ["http://www.therealbest.com/img/items/big/813/Pele_Pele-great-player_1378.jpg",
+          "http://www.therealbest.com/img/items/big/813/Pele_Pele-great-player_1373.jpg",
+          "https://byvm-uploads.s3.amazonaws.com/uploads/judges/original/pele_featured.jpeg",
+          "http://static.goal.com/di/F1D4355F93A00A2B66BFC7BE36216914.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2e/Pel%C3%A9_Schiphol_1962.jpg"]
+      },
+      {
+        "name": "Sir Donald Bradman",
+        "sports": "Cricket",
+        "country": "Australia",
+        "imageURL":
+        ["http://sportinghistory.com.au/wp-content/uploads/2012/09/donald-bradman.jpg",
+          "http://www.aiya.org.au/wp-content/uploads/2015/11/don-bradman.jpg",
+          "http://st3.cricketcountry.com/wp-content/uploads/2016/08/dbgi3.jpg"]
+      },
+      {
+        "name": "Sachin Tendulkar",
+        "sports": "Cricket",
+        "country": "India",
+        "imageURL":
+        ["http://media.gettyimages.com/photos/sachin-tendulkar-of-the-indian-cricket-team-poses-with-the-icc-world-picture-id111487120?s=594x594",
+          "http://www.thehindu.com/multimedia/dynamic/01308/th24_tendulkar__TH_1308560f.jpg",
+          "https://s-media-cache-ak0.pinimg.com/originals/5b/b8/b2/5bb8b28230965a2f9e2513887295d3d4.jpg",
+          "http://timesofindia.indiatimes.com/thumb/msid-49640495,width-400,resizemode-4/49640495.jpg"]
+      },
+      {
+        "name": "Billie Jean King",
+        "sports": "Tennis",
+        "country": "United State",
+        "imageURL":
+        ["https://pbs.twimg.com/profile_images/378800000533846602/014475f80e09ac45aed106a32f656e0d_400x400.jpeg",
+          "http://www.diabetesrak.com/wp-content/uploads/2016/04/url.jpg",
+          "http://static.makers.com/maker/Billie_Jean_King_Thumbnail_RightSize.jpg"]
+      },
+      {
+        "name": "Lionel Messi",
+        "sports": "Football",
+        "country": "Argentina",
+        "imageURL":
+        ["https://static.independent.co.uk/s3fs-public/styles/story_medium/public/thumbnails/image/2013/11/14/13/Lionel-Messi-2.jpg",
+          "http://www.imagefully.com/wp-content/uploads/2015/07/Stylish-Look-Lionel-Messi-Photo-Share-On-Facebook.jpg",
+          "http://www.imagefully.com/wp-content/uploads/2015/07/Argentine-Professional-Player-Lionel-Messi.jpg"]
+      },
+      {
+        "name": "Michael Jordan",
+        "sports": "Basketball",
+        "country": "United State",
+        "imageURL":
+        ["http://static.vibe.com/files/photo_gallery_images/url-5_1-compressed.jpeg",
+          "https://pbs.twimg.com/media/BtUiXXdCIAETw3Q.jpg",
+          "https://pic.pimg.tw/cyc0320/1345003428-416672606.jpg",
+          "http://cp91279.biography.com/BIO_Bio-Shorts_Michael-Jordan-Mini-Biography_0_181278_SF_HD_768x432-16x9.jpg"]
+      },
+      {
+        "name": "Larisa Latynina",
+        "sports": "Gymnastics",
+        "country": "Soviet Union",
+        "imageURL":
+        ["https://s-media-cache-ak0.pinimg.com/564x/12/cd/ef/12cdefe72c55672b96942258b5003fd2.jpg",
+          "http://images.supersport.com/LarisaLatynina-profile400-london2012.jpg",
+          "https://josashobbylobby.files.wordpress.com/2012/07/larissalatynina.jpg",
+          "http://softfern.com/ImN5/Larisa_Latynina-6516.jpeg"]
+      }
+]
