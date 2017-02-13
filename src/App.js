@@ -61,8 +61,6 @@ export default class App extends Component {
                 </Slider>
             </div>
         </div>
-    } else {
-      alert("Player is not available.");
     }
 
     return (
