@@ -9,22 +9,22 @@ const settings = {
 };
 
 const imageStyle = {
-    height: 400,
-    width: 600
+    height: 300,
+    width: 400
 };
 
 const containerStyle = {
-    margin: 100,
+    margin: 80,
     padding: 40,
-    width: '80%',
+    width: 400,
     color: '#333',
     background: 'lightgray'
 };
 
 const inputStyle = {
-    height: 32,
-    width: 500,
-    fontSize: 'large'
+    height: 28,
+    width: 400,
+    fontSize: 'large',
 };
 
 export {settings, imageStyle, containerStyle, inputStyle}
