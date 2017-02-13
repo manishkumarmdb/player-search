@@ -18,11 +18,11 @@ export default class App extends Component {
     onChange(event) {
         const self = this;
         const text = event.target.value;
-        console.log('text is ',text);
+        //console.log('text is ',text);
         superagent
             .get('/getBody/'+text)
             .end((err, res) => {
-                console.log('res is ', res);
+                //console.log('res is ', res);
                 if(res && res.body && res.body.length === 1) {
                     self.setState({body: res.body[0]});
                 }
@@ -48,11 +48,11 @@ export default class App extends Component {
     const {onChange} = this;
     let slider = null;
     if(body) {
-        console.log('body is ', body);
+        //console.log('body is ', body);
         slider = <div>
             <div style={{display: 'inline'}}>
                 <p><span style={{color: 'red', marginRight: 40}}>Name:</span> {body.name}</p>
-                <p><span style={{color: 'red', marginRight: 20}}>Country:</span> {body.country}</p>
+                <p><span style={{color: 'red', marginRight: 27}}>Country:</span> {body.country}</p>
                 <p><span style={{color: 'red', marginRight: 40}}>Sports:</span> {body.sports}</p>
             </div>
             <div style={{display: 'inline'}}>
@@ -61,6 +61,8 @@ export default class App extends Component {
                 </Slider>
             </div>
         </div>
+    } else {
+      alert("Player is not available.");
     }
 
     return (
