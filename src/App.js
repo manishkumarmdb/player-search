@@ -26,27 +26,16 @@ export default class App extends Component {
                 if(res && res.body && res.body.length === 1) {
                     self.setState({body: res.body[0]});
                 }
+                //console.log('body is ', res.body);
             });
     }
-  componentDidMount() {
-    const self = this;
-    superagent.get('/hello')
-        .end( function (err, res) {
-          console.log('response is ', res);
-          if(err || !res.ok) {
-            self.setState({error: err.message || 'Error getting response from server'})
-          }
-          else {
-            self.setState({message: res.body.title})
-          }
-        })
-  }
+
 
   render() {
 
     const {error, message, body} = this.state;
     const {onChange} = this;
-    let slider = null;
+    let slider = <h2>No player to show!!!</h2>;
     if(body) {
         //console.log('body is ', body);
         slider = <div>
